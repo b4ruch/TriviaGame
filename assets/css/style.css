@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Lobster|Fira+Sans');
+html {
+    /* height: 100v; */
+}
+
+body {
+    height: 100vh;
+    /* background: rgb(0, 0, 0); */
+    background-image: linear-gradient(to right, #434343, #000000);
+    /* font-family: 'PT Sans', sans-serif; */
+    color: white;
+    font-family: 'Bitter', serif;
+}
+
+.main_row {
+    max-width: 80vw;
+}
+
+.game_wrapper {
+    width: 80vw;
+    height: 70vh;
+    margin-top: 15vh;
+    /* background-color: aqua; */
+    box-shadow: 0 0 40px 20px #9eeffa;
+    background-image: url("../images/background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    border-radius: 2%;
+}
+
+.trivia_panel1 {
+    background-color: rgba(101, 108, 110, 0.8);
+    /*#dedede33; */
+    margin-top: 17vh;
+    margin-left: 10vw;
+    border-radius: 4%;
+}
+
+.trivia_panel2 {
+    background-color: rgba(36, 93, 112, 0.432);
+    /*#dedede33; */
+    margin-top: 17vh;
+    margin-left: 5vw;
+    border-radius: 4%;
+    transform: skew(0deg, -16.1deg);
+    /* display: none; */
+}
+
+.card {
+    border: none;
+}
+
+.question, .result_title {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.img_answer {
+    display: block;
+    width: 200px;
+    height: auto;
+    align-self: center;
+}
+
+.welcome_title {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #ee8710, 0 0 7px #ee8710, 0 0 10px #ee8710, 0 0 20px #ee8710, 0 0 30px #ee8710;
+    text-overflow: clip;
+    /* white-space: pre; */
+}
+
+.welcome_msg {
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    font-stretch: narrower;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.answer {
+    color: whitesmoke;
+    border-radius: .3rem;
+    /* color: goldenrod; */
+}
+
+.spinner_wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.timer_seconds {
+    font-family: 'Lobster', cursive;
+    font-size: 2.3rem;
+}
+
+.restart {
+    /* text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #ee8710, 0 0 7px #ee8710, 0 0 10px #ee8710, 0 0 20px #ee8710, 0 0 30px #ee8710; */
+    box-shadow: 0 0 4px 2px #9eeffa;
+}
+
+.score {
+    margin-top: 2rem;
+}
