@@ -8,7 +8,6 @@ The game is designed to scale easily by adding new topics and questions into the
 
 Answers appear in random order on each iteration.
 
-
-
+[Technology Trivia!](https://b4ruch.github.io/TriviaGame/ "Technology Trivia")
 
 
